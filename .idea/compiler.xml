@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springBootDemo" />
+        <module name="realestate rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springBootDemo" target="18" />
+      <module name="realestate rest" target="18" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="springBootDemo" options="-parameters" />
+      <module name="realestate rest" options="-parameters" />
     </option>
   </component>
 </project>
