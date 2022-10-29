@@ -9,6 +9,19 @@ import javax.persistence.Lob;
 
 @Entity
 public class Attachment {
+    public enum AttachmentType{
+        RENTCONTRACT,
+        CONTRACT,
+        LAWSUIT,
+        PAYMENTRECEIPT,
+        UTILITYBILL,
+        RENTRENEWAL,
+        CONSTRUCTIONCONTRACT,
+        CONSTRUCTIONBID,
+        PLANSANDMAPS,
+        FINANCIALSTATEMENT,
+        OTHER
+    }
     @Id
     @GeneratedValue(generator = "uuid")
     @GenericGenerator(name = "uuid", strategy = "uuid2")
